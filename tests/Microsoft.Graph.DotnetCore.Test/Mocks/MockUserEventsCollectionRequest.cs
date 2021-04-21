@@ -18,6 +18,7 @@ namespace Microsoft.Graph.DotnetCore.Test.Mocks
             IUserEventsCollectionPage nextPage)
         {
             NextPage = nextPage;
+            RequestUrl = "nextLink";
         }
 
         public Task<IUserEventsCollectionPage> GetAsync()
@@ -60,7 +61,7 @@ namespace Microsoft.Graph.DotnetCore.Test.Mocks
 
         public HttpMethods Method => throw new NotImplementedException();
 
-        public string RequestUrl => throw new NotImplementedException();
+        public string RequestUrl { get; internal set; }
 
         public IList<QueryOption> QueryOptions => throw new NotImplementedException();
 

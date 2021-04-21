@@ -1,4 +1,4 @@
-﻿// ------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
 //  Copyright (c) Microsoft Corporation.  All Rights Reserved.  Licensed under the MIT License.  See License in the project root for license information.
 // ------------------------------------------------------------------------------
 
@@ -108,8 +108,6 @@ namespace Microsoft.Graph.DotnetCore.Test.Tasks
             {
                 AdditionalData = new Dictionary<string, object>()
             };
-
-            page.AdditionalData.Add(Constants.OdataInstanceAnnotations.NextLink, "testnextlink");
 
             eventPageIterator = PageIterator<Event>.CreatePageIterator(graphClient, page, (e) => { return true; });
             await Assert.ThrowsAsync<RuntimeBinderException>(() => eventPageIterator.IterateAsync());
@@ -294,9 +292,7 @@ namespace Microsoft.Graph.DotnetCore.Test.Tasks
             }
 
             // This will be the same nextLink value as the one set in MockUserEventsCollectionPage cstor.
-            nextPage.AdditionalData = new Dictionary<string, object>() {
-                { Constants.OdataInstanceAnnotations.NextLink, "testNextlink"}
-            };
+            nextPage.InitializeNextPageRequest(graphClient, "https://graph.microsoft.com/v1.0/me/messages?$skip=10");
 
             // Create the delegate to process each entity returned in the pages. The delegate will 
             // signal that we reached an event in the next page.
