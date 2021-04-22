@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -91,7 +91,7 @@ namespace Microsoft.Graph
             // There are more pages ready to be paged.
             if (page.NextPageRequest != null)
             {
-                Nextlink = page.NextPageRequest.RequestUrl;
+                Nextlink = page.NextPageRequest.GetHttpRequestMessage().RequestUri.OriginalString;
                 return true;
             }
 
@@ -151,7 +151,7 @@ namespace Microsoft.Graph
             }
 
             // Detect nextLink loop
-            if (page.NextPageRequest != null && Nextlink.Equals(page.NextPageRequest.RequestUrl))
+            if (page.NextPageRequest != null && Nextlink.Equals(page.NextPageRequest.GetHttpRequestMessage().RequestUri.OriginalString))
             {
                 throw new ServiceException(new Error()
                 {

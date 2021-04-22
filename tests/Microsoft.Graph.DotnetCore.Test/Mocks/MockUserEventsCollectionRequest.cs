@@ -120,7 +120,7 @@ namespace Microsoft.Graph.DotnetCore.Test.Mocks
 
         public HttpRequestMessage GetHttpRequestMessage()
         {
-            throw new NotImplementedException();
+            return new HttpRequestMessage(HttpMethod.Get, RequestUrl);
         }
 
         #endregion
