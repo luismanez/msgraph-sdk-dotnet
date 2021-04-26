@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -86,22 +86,22 @@ namespace Microsoft.Graph
                 }
             }
 
+            // Setup deltalink request. Using dynamic to access the NextPageRequest.
+            dynamic page = _currentPage;
             // There are more pages ready to be paged.
-            if (_currentPage.AdditionalData.TryGetValue(Constants.OdataInstanceAnnotations.NextLink, out object nextlink))
+            if (page.NextPageRequest != null)
             {
-                Nextlink = nextlink as string;
+                Nextlink = page.NextPageRequest.GetHttpRequestMessage().RequestUri.OriginalString;
                 return true;
             }
 
             // There are no pages CURRENTLY ready to be paged. Attempt to call delta query later.
-            else if (_currentPage.AdditionalData.TryGetValue(Constants.OdataInstanceAnnotations.DeltaLink, out object deltalink))
+            else if (_currentPage.AdditionalData != null &&_currentPage.AdditionalData.TryGetValue(Constants.OdataInstanceAnnotations.DeltaLink, out object deltalink))
             {
-                Deltalink = deltalink as string;
+                Deltalink = deltalink.ToString();
                 State = PagingState.Delta;
                 Nextlink = string.Empty;
-
-                // Setup deltalink request. Using dynamic to access the NextPageRequest.
-                dynamic page = _currentPage;
+                
                 page.InitializeNextPageRequest(this._client, Deltalink);
                 _currentPage = page;
 
@@ -129,15 +129,16 @@ namespace Microsoft.Graph
         {
             State = PagingState.InterpageIteration;
 
-            // Get the next page if it is available and queue the items for processing.
-            if (_currentPage.AdditionalData.TryGetValue(Constants.OdataInstanceAnnotations.NextLink, out object nextlink))
-            {
-                // We need access to the NextPageRequest to call and get the next page. ICollectionPage<TEntity> doesn't define NextPageRequest.
-                // We are making this dynamic so we can access NextPageRequest.
-                dynamic page = _currentPage;
+            // We need access to the NextPageRequest to call and get the next page. ICollectionPage<TEntity> doesn't define NextPageRequest.
+            // We are making this dynamic so we can access NextPageRequest.
+            dynamic page = _currentPage;
 
+            // Get the next page if it is available and queue the items for processing.
+            if (page.NextPageRequest != null)
+            {
                 // Call the MSGraph API to get the next page of results and set that page as the currentPage.
                 _currentPage = await (_requestConfigurator == null ? page.NextPageRequest : _requestConfigurator(page.NextPageRequest)).GetAsync(token).ConfigureAwait(false);
+                page = _currentPage;
 
                 // Add all of the items returned in the response to the queue.
                 if (_currentPage.Count > 0)
@@ -150,7 +151,7 @@ namespace Microsoft.Graph
             }
 
             // Detect nextLink loop
-            if (_currentPage.AdditionalData.TryGetValue(Constants.OdataInstanceAnnotations.NextLink, out object nextNextLink) && nextlink.Equals(nextNextLink))
+            if (page.NextPageRequest != null && Nextlink.Equals(page.NextPageRequest.GetHttpRequestMessage().RequestUri.OriginalString))
             {
                 throw new ServiceException(new Error()
                 {
