@@ -18,7 +18,7 @@ namespace Microsoft.Graph.DotnetCore.Test.Mocks
             IUserEventsCollectionPage nextPage)
         {
             NextPage = nextPage;
-            RequestUrl = "nextLink";
+            RequestUrl = "https://graph.microsoft.com/v1.0/me/events?$skip=10";
         }
 
         public Task<IUserEventsCollectionPage> GetAsync()

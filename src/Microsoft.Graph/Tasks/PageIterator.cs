@@ -91,7 +91,7 @@ namespace Microsoft.Graph
             // There are more pages ready to be paged.
             if (page.NextPageRequest != null)
             {
-                Nextlink = page.NextPageRequest.GetHttpRequestMessage().RequestUri.OriginalString;
+                Nextlink = page.NextPageRequest.GetHttpRequestMessage().RequestUri.AbsoluteUri;
                 return true;
             }
 
@@ -151,7 +151,7 @@ namespace Microsoft.Graph
             }
 
             // Detect nextLink loop
-            if (page.NextPageRequest != null && Nextlink.Equals(page.NextPageRequest.GetHttpRequestMessage().RequestUri.OriginalString))
+            if (page.NextPageRequest != null && Nextlink.Equals(page.NextPageRequest.GetHttpRequestMessage().RequestUri.AbsoluteUri))
             {
                 throw new ServiceException(new Error()
                 {
