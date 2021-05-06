@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PasswordProfile()
         {
-            this.ODataType = "microsoft.graph.passwordProfile";
         }
 
         /// <summary>

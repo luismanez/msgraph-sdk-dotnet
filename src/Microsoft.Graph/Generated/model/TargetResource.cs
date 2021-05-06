@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TargetResource()
         {
-            this.ODataType = "microsoft.graph.targetResource";
         }
 
         /// <summary>

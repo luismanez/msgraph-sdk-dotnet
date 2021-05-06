@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MediaContentRatingAustralia()
         {
-            this.ODataType = "microsoft.graph.mediaContentRatingAustralia";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AgreementFileData()
         {
-            this.ODataType = "microsoft.graph.agreementFileData";
         }
 
         /// <summary>

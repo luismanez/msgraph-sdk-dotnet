@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ComplianceInformation()
         {
-            this.ODataType = "microsoft.graph.complianceInformation";
         }
 
         /// <summary>

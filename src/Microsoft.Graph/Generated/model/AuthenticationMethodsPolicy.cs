@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class AuthenticationMethodsPolicy : Entity
     {
     
-		///<summary>
-		/// The AuthenticationMethodsPolicy constructor
-		///</summary>
+        ///<summary>
+        /// The AuthenticationMethodsPolicy constructor
+        ///</summary>
         public AuthenticationMethodsPolicy()
         {
-            this.ODataType = "microsoft.graph.authenticationMethodsPolicy";
         }
-	
+
         /// <summary>
         /// Gets or sets description.
         /// </summary>

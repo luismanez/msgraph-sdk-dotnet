@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ScoredEmailAddress()
         {
-            this.ODataType = "microsoft.graph.scoredEmailAddress";
         }
 
         /// <summary>

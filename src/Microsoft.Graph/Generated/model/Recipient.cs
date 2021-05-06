@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Recipient()
         {
-            this.ODataType = "microsoft.graph.recipient";
         }
 
         /// <summary>

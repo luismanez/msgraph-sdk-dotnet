@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PublicClientApplication()
         {
-            this.ODataType = "microsoft.graph.publicClientApplication";
         }
 
         /// <summary>

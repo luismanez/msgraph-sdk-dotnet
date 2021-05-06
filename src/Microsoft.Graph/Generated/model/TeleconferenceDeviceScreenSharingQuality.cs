@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TeleconferenceDeviceScreenSharingQuality()
         {
-            this.ODataType = "microsoft.graph.teleconferenceDeviceScreenSharingQuality";
         }
 
     }

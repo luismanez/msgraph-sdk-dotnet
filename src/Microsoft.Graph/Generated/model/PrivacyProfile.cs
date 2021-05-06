@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrivacyProfile()
         {
-            this.ODataType = "microsoft.graph.privacyProfile";
         }
 
         /// <summary>

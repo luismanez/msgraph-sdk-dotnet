@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PasswordCredential()
         {
-            this.ODataType = "microsoft.graph.passwordCredential";
         }
 
         /// <summary>

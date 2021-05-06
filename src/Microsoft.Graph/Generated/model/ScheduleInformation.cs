@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ScheduleInformation()
         {
-            this.ODataType = "microsoft.graph.scheduleInformation";
         }
 
         /// <summary>

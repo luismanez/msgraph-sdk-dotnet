@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OperationError()
         {
-            this.ODataType = "microsoft.graph.operationError";
         }
 
         /// <summary>

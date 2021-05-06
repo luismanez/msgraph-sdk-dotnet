@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class WorkbookFilter : Entity
     {
     
-		///<summary>
-		/// The WorkbookFilter constructor
-		///</summary>
+        ///<summary>
+        /// The WorkbookFilter constructor
+        ///</summary>
         public WorkbookFilter()
         {
-            this.ODataType = "microsoft.graph.workbookFilter";
         }
-	
+
         /// <summary>
         /// Gets or sets criteria.
         /// The currently applied filter on the given column. Read-only.

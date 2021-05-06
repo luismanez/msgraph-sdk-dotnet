@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class EnrollmentConfigurationAssignment : Entity
     {
     
-		///<summary>
-		/// The EnrollmentConfigurationAssignment constructor
-		///</summary>
+        ///<summary>
+        /// The EnrollmentConfigurationAssignment constructor
+        ///</summary>
         public EnrollmentConfigurationAssignment()
         {
-            this.ODataType = "microsoft.graph.enrollmentConfigurationAssignment";
         }
-	
+
         /// <summary>
         /// Gets or sets target.
         /// Represents an assignment to managed devices in the tenant

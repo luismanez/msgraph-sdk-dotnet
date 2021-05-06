@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OnPremisesExtensionAttributes()
         {
-            this.ODataType = "microsoft.graph.onPremisesExtensionAttributes";
         }
 
         /// <summary>

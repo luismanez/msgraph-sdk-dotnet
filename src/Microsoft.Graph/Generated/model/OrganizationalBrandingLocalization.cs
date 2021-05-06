@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class OrganizationalBrandingLocalization : OrganizationalBrandingProperties
     {
     
-		///<summary>
-		/// The OrganizationalBrandingLocalization constructor
-		///</summary>
+        ///<summary>
+        /// The OrganizationalBrandingLocalization constructor
+        ///</summary>
         public OrganizationalBrandingLocalization()
         {
-            this.ODataType = "microsoft.graph.organizationalBrandingLocalization";
         }
-	
+
     }
 }
 

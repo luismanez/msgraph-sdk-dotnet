@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ManagedAppPolicyDeploymentSummaryPerApp()
         {
-            this.ODataType = "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp";
         }
 
         /// <summary>

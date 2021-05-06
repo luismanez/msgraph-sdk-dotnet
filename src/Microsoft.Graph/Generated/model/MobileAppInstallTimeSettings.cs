@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MobileAppInstallTimeSettings()
         {
-            this.ODataType = "microsoft.graph.mobileAppInstallTimeSettings";
         }
 
         /// <summary>

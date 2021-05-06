@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OnenotePagePreviewLinks()
         {
-            this.ODataType = "microsoft.graph.onenotePagePreviewLinks";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class Calendar : Entity
     {
     
-		///<summary>
-		/// The Calendar constructor
-		///</summary>
+        ///<summary>
+        /// The Calendar constructor
+        ///</summary>
         public Calendar()
         {
-            this.ODataType = "microsoft.graph.calendar";
         }
-	
+
         /// <summary>
         /// Gets or sets allowed online meeting providers.
         /// Represent the online meeting service providers that can be used to create online meetings in this calendar. Possible values are: unknown, skypeForBusiness, skypeForConsumer, teamsForBusiness.

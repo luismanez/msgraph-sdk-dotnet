@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public LobbyBypassSettings()
         {
-            this.ODataType = "microsoft.graph.lobbyBypassSettings";
         }
 
         /// <summary>

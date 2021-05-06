@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Win32LobAppMsiInformation()
         {
-            this.ODataType = "microsoft.graph.win32LobAppMsiInformation";
         }
 
         /// <summary>

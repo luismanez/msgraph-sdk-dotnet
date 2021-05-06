@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TimeSlot()
         {
-            this.ODataType = "microsoft.graph.timeSlot";
         }
 
         /// <summary>

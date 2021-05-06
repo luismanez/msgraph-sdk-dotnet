@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OnenoteOperationError()
         {
-            this.ODataType = "microsoft.graph.onenoteOperationError";
         }
 
         /// <summary>

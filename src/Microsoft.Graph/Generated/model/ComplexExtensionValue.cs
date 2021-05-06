@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ComplexExtensionValue()
         {
-            this.ODataType = "microsoft.graph.ComplexExtensionValue";
         }
 
         /// <summary>

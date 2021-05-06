@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public GeoCoordinates()
         {
-            this.ODataType = "microsoft.graph.geoCoordinates";
         }
 
         /// <summary>

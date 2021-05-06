@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CommsNotifications()
         {
-            this.ODataType = "microsoft.graph.commsNotifications";
         }
 
         /// <summary>

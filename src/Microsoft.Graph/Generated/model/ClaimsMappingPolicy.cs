@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ClaimsMappingPolicy : StsPolicy
     {
     
-		///<summary>
-		/// The ClaimsMappingPolicy constructor
-		///</summary>
+        ///<summary>
+        /// The ClaimsMappingPolicy constructor
+        ///</summary>
         public ClaimsMappingPolicy()
         {
-            this.ODataType = "microsoft.graph.claimsMappingPolicy";
         }
-	
+
     }
 }
 

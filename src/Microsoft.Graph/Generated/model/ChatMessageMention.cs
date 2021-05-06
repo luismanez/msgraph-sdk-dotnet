@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChatMessageMention()
         {
-            this.ODataType = "microsoft.graph.chatMessageMention";
         }
 
         /// <summary>

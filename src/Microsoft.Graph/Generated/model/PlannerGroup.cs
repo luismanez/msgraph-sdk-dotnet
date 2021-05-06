@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class PlannerGroup : Entity
     {
     
-		///<summary>
-		/// The PlannerGroup constructor
-		///</summary>
+        ///<summary>
+        /// The PlannerGroup constructor
+        ///</summary>
         public PlannerGroup()
         {
-            this.ODataType = "microsoft.graph.plannerGroup";
         }
-	
+
         /// <summary>
         /// Gets or sets plans.
         /// Read-only. Nullable. Returns the plannerPlans owned by the group.

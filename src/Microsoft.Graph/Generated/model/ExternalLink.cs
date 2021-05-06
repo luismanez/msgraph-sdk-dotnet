@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ExternalLink()
         {
-            this.ODataType = "microsoft.graph.externalLink";
         }
 
         /// <summary>

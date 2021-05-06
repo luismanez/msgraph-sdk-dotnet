@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AppIdentity()
         {
-            this.ODataType = "microsoft.graph.appIdentity";
         }
 
         /// <summary>

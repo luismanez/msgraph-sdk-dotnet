@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ApplicationEnforcedRestrictionsSessionControl()
         {
-            this.ODataType = "microsoft.graph.applicationEnforcedRestrictionsSessionControl";
         }
 
     }

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class MobileAppContentFile : Entity
     {
     
-		///<summary>
-		/// The MobileAppContentFile constructor
-		///</summary>
+        ///<summary>
+        /// The MobileAppContentFile constructor
+        ///</summary>
         public MobileAppContentFile()
         {
-            this.ODataType = "microsoft.graph.mobileAppContentFile";
         }
-	
+
         /// <summary>
         /// Gets or sets azure storage uri.
         /// The Azure Storage URI.

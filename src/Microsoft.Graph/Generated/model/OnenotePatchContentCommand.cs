@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OnenotePatchContentCommand()
         {
-            this.ODataType = "microsoft.graph.onenotePatchContentCommand";
         }
 
         /// <summary>

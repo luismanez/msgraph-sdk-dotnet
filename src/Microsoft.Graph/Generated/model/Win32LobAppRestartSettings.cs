@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Win32LobAppRestartSettings()
         {
-            this.ODataType = "microsoft.graph.win32LobAppRestartSettings";
         }
 
         /// <summary>

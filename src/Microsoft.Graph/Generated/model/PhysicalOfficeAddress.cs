@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PhysicalOfficeAddress()
         {
-            this.ODataType = "microsoft.graph.physicalOfficeAddress";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PublicationFacet()
         {
-            this.ODataType = "microsoft.graph.publicationFacet";
         }
 
         /// <summary>

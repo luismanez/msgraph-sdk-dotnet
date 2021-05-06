@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceExchangeAccessStateSummary()
         {
-            this.ODataType = "microsoft.graph.deviceExchangeAccessStateSummary";
         }
 
         /// <summary>

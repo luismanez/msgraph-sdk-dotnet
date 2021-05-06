@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IncompleteData()
         {
-            this.ODataType = "microsoft.graph.incompleteData";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Audio()
         {
-            this.ODataType = "microsoft.graph.audio";
         }
 
         /// <summary>

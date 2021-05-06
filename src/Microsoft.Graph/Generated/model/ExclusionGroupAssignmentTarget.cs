@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ExclusionGroupAssignmentTarget()
         {
-            this.ODataType = "microsoft.graph.exclusionGroupAssignmentTarget";
         }
 
     }

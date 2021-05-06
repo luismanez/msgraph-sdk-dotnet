@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public VppLicensingType()
         {
-            this.ODataType = "microsoft.graph.vppLicensingType";
         }
 
         /// <summary>

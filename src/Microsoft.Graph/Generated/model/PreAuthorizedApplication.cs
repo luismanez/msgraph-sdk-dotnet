@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PreAuthorizedApplication()
         {
-            this.ODataType = "microsoft.graph.preAuthorizedApplication";
         }
 
         /// <summary>

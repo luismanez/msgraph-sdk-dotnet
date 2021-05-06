@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CloudAppSecurityState()
         {
-            this.ODataType = "microsoft.graph.cloudAppSecurityState";
         }
 
         /// <summary>

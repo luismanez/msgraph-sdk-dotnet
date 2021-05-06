@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Thumbnail()
         {
-            this.ODataType = "microsoft.graph.thumbnail";
         }
 
         /// <summary>

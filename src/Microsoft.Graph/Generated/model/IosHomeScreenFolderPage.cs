@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IosHomeScreenFolderPage()
         {
-            this.ODataType = "microsoft.graph.iosHomeScreenFolderPage";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ContactFolder : Entity
     {
     
-		///<summary>
-		/// The ContactFolder constructor
-		///</summary>
+        ///<summary>
+        /// The ContactFolder constructor
+        ///</summary>
         public ContactFolder()
         {
-            this.ODataType = "microsoft.graph.contactFolder";
         }
-	
+
         /// <summary>
         /// Gets or sets display name.
         /// The folder's display name.

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OptionalClaims()
         {
-            this.ODataType = "microsoft.graph.optionalClaims";
         }
 
         /// <summary>

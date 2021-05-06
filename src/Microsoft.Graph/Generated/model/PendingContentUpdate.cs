@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PendingContentUpdate()
         {
-            this.ODataType = "microsoft.graph.pendingContentUpdate";
         }
 
         /// <summary>

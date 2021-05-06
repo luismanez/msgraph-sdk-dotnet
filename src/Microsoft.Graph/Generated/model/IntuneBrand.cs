@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IntuneBrand()
         {
-            this.ODataType = "microsoft.graph.intuneBrand";
         }
 
         /// <summary>

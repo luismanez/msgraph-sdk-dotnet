@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PersonOrGroupColumn()
         {
-            this.ODataType = "microsoft.graph.personOrGroupColumn";
         }
 
         /// <summary>

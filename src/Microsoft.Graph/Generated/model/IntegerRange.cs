@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IntegerRange()
         {
-            this.ODataType = "microsoft.graph.integerRange";
         }
 
         /// <summary>

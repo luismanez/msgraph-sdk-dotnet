@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrinterLocation()
         {
-            this.ODataType = "microsoft.graph.printerLocation";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class DeviceComplianceSettingState : Entity
     {
     
-		///<summary>
-		/// The DeviceComplianceSettingState constructor
-		///</summary>
+        ///<summary>
+        /// The DeviceComplianceSettingState constructor
+        ///</summary>
         public DeviceComplianceSettingState()
         {
-            this.ODataType = "microsoft.graph.deviceComplianceSettingState";
         }
-	
+
         /// <summary>
         /// Gets or sets compliance grace period expiration date time.
         /// The DateTime when device compliance grace period expires

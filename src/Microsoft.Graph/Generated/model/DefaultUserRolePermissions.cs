@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DefaultUserRolePermissions()
         {
-            this.ODataType = "microsoft.graph.defaultUserRolePermissions";
         }
 
         /// <summary>

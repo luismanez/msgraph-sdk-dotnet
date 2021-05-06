@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Website()
         {
-            this.ODataType = "microsoft.graph.website";
         }
 
         /// <summary>

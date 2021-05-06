@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CallMediaState()
         {
-            this.ODataType = "microsoft.graph.callMediaState";
         }
 
         /// <summary>

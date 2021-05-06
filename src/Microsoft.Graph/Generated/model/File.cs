@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public File()
         {
-            this.ODataType = "microsoft.graph.file";
         }
 
         /// <summary>

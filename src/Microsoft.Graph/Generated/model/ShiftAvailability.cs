@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ShiftAvailability()
         {
-            this.ODataType = "microsoft.graph.shiftAvailability";
         }
 
         /// <summary>

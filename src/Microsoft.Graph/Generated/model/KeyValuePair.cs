@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public KeyValuePair()
         {
-            this.ODataType = "microsoft.graph.keyValuePair";
         }
 
         /// <summary>

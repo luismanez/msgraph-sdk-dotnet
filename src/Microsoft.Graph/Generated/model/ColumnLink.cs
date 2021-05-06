@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ColumnLink : Entity
     {
     
-		///<summary>
-		/// The ColumnLink constructor
-		///</summary>
+        ///<summary>
+        /// The ColumnLink constructor
+        ///</summary>
         public ColumnLink()
         {
-            this.ODataType = "microsoft.graph.columnLink";
         }
-	
+
         /// <summary>
         /// Gets or sets name.
         /// The name of the column  in this content type.

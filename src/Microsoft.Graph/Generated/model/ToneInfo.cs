@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ToneInfo()
         {
-            this.ODataType = "microsoft.graph.toneInfo";
         }
 
         /// <summary>

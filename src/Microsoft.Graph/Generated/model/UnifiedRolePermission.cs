@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public UnifiedRolePermission()
         {
-            this.ODataType = "microsoft.graph.unifiedRolePermission";
         }
 
         /// <summary>

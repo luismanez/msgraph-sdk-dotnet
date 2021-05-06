@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ItemPreviewInfo()
         {
-            this.ODataType = "microsoft.graph.itemPreviewInfo";
         }
 
         /// <summary>

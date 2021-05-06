@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SharingDetail()
         {
-            this.ODataType = "microsoft.graph.sharingDetail";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AppListItem()
         {
-            this.ODataType = "microsoft.graph.appListItem";
         }
 
         /// <summary>

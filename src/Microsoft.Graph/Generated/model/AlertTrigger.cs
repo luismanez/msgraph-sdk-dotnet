@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AlertTrigger()
         {
-            this.ODataType = "microsoft.graph.alertTrigger";
         }
 
         /// <summary>

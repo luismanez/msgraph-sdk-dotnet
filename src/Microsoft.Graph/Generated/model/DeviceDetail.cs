@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceDetail()
         {
-            this.ODataType = "microsoft.graph.deviceDetail";
         }
 
         /// <summary>

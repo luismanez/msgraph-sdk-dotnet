@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MailboxSettings()
         {
-            this.ODataType = "microsoft.graph.mailboxSettings";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public FailureInfo()
         {
-            this.ODataType = "microsoft.graph.callRecords.failureInfo";
         }
 
         /// <summary>

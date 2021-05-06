@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SharepointIds()
         {
-            this.ODataType = "microsoft.graph.sharepointIds";
         }
 
         /// <summary>

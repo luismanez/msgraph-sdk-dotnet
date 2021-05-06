@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public InformationalUrl()
         {
-            this.ODataType = "microsoft.graph.informationalUrl";
         }
 
         /// <summary>

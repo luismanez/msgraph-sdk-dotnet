@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ActivityBasedTimeoutPolicy : StsPolicy
     {
     
-		///<summary>
-		/// The ActivityBasedTimeoutPolicy constructor
-		///</summary>
+        ///<summary>
+        /// The ActivityBasedTimeoutPolicy constructor
+        ///</summary>
         public ActivityBasedTimeoutPolicy()
         {
-            this.ODataType = "microsoft.graph.activityBasedTimeoutPolicy";
         }
-	
+
     }
 }
 

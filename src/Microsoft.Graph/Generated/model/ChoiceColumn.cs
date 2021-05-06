@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChoiceColumn()
         {
-            this.ODataType = "microsoft.graph.choiceColumn";
         }
 
         /// <summary>

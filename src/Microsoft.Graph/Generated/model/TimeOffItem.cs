@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TimeOffItem()
         {
-            this.ODataType = "microsoft.graph.timeOffItem";
         }
 
         /// <summary>

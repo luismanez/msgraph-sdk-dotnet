@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class SearchEntity : Entity
     {
     
-		///<summary>
-		/// The SearchEntity constructor
-		///</summary>
+        ///<summary>
+        /// The SearchEntity constructor
+        ///</summary>
         public SearchEntity()
         {
-            this.ODataType = "microsoft.graph.searchEntity";
         }
-	
+
     }
 }
 

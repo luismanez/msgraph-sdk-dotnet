@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PersonType()
         {
-            this.ODataType = "microsoft.graph.personType";
         }
 
         /// <summary>

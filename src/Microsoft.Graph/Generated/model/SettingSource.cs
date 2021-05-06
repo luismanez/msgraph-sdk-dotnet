@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SettingSource()
         {
-            this.ODataType = "microsoft.graph.settingSource";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CopyNotebookModel()
         {
-            this.ODataType = "microsoft.graph.CopyNotebookModel";
         }
 
         /// <summary>

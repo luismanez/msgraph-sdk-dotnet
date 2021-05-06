@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public UserSecurityState()
         {
-            this.ODataType = "microsoft.graph.userSecurityState";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PlannerChecklistItems()
         {
-            this.ODataType = "microsoft.graph.plannerChecklistItems";
         }
 
         /// <summary>

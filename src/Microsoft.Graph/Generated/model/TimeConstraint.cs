@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TimeConstraint()
         {
-            this.ODataType = "microsoft.graph.timeConstraint";
         }
 
         /// <summary>

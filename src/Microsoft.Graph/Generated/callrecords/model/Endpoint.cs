@@ -25,7 +25,6 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public Endpoint()
         {
-            this.ODataType = "microsoft.graph.callRecords.endpoint";
         }
 
         /// <summary>

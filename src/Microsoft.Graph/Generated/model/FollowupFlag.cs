@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public FollowupFlag()
         {
-            this.ODataType = "microsoft.graph.followupFlag";
         }
 
         /// <summary>

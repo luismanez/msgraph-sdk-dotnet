@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public GeolocationColumn()
         {
-            this.ODataType = "microsoft.graph.geolocationColumn";
         }
 
         /// <summary>

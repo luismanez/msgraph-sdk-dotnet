@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SettingValue()
         {
-            this.ODataType = "microsoft.graph.settingValue";
         }
 
         /// <summary>

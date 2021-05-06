@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class EducationRoot : Entity
     {
     
-		///<summary>
-		/// The EducationRoot constructor
-		///</summary>
+        ///<summary>
+        /// The EducationRoot constructor
+        ///</summary>
         public EducationRoot()
         {
-            this.ODataType = "microsoft.graph.educationRoot";
         }
-	
+
         /// <summary>
         /// Gets or sets classes.
         /// Read-only. Nullable.

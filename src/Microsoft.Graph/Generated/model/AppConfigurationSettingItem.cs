@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AppConfigurationSettingItem()
         {
-            this.ODataType = "microsoft.graph.appConfigurationSettingItem";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public InvitedUserMessageInfo()
         {
-            this.ODataType = "microsoft.graph.invitedUserMessageInfo";
         }
 
         /// <summary>

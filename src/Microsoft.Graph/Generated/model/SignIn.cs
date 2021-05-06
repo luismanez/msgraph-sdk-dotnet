@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class SignIn : Entity
     {
     
-		///<summary>
-		/// The SignIn constructor
-		///</summary>
+        ///<summary>
+        /// The SignIn constructor
+        ///</summary>
         public SignIn()
         {
-            this.ODataType = "microsoft.graph.signIn";
         }
-	
+
         /// <summary>
         /// Gets or sets app display name.
         /// The application name displayed in the Azure Portal.

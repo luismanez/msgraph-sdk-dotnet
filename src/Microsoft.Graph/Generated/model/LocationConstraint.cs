@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public LocationConstraint()
         {
-            this.ODataType = "microsoft.graph.locationConstraint";
         }
 
         /// <summary>

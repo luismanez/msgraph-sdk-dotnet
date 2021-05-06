@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ShiftItem()
         {
-            this.ODataType = "microsoft.graph.shiftItem";
         }
 
         /// <summary>

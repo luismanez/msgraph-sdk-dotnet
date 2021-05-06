@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class OfficeGraphInsights : Entity
     {
     
-		///<summary>
-		/// The OfficeGraphInsights constructor
-		///</summary>
+        ///<summary>
+        /// The OfficeGraphInsights constructor
+        ///</summary>
         public OfficeGraphInsights()
         {
-            this.ODataType = "microsoft.graph.officeGraphInsights";
         }
-	
+
         /// <summary>
         /// Gets or sets shared.
         /// Access this property from the derived type itemInsights.

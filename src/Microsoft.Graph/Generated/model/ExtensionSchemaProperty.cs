@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ExtensionSchemaProperty()
         {
-            this.ODataType = "microsoft.graph.extensionSchemaProperty";
         }
 
         /// <summary>

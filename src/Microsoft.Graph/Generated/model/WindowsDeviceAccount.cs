@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WindowsDeviceAccount()
         {
-            this.ODataType = "microsoft.graph.windowsDeviceAccount";
         }
 
         /// <summary>

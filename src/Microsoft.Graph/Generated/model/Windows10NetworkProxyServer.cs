@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Windows10NetworkProxyServer()
         {
-            this.ODataType = "microsoft.graph.windows10NetworkProxyServer";
         }
 
         /// <summary>

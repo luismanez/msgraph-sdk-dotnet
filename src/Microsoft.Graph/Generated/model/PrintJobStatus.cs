@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrintJobStatus()
         {
-            this.ODataType = "microsoft.graph.printJobStatus";
         }
 
         /// <summary>

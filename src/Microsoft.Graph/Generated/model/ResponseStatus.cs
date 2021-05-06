@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ResponseStatus()
         {
-            this.ODataType = "microsoft.graph.responseStatus";
         }
 
         /// <summary>

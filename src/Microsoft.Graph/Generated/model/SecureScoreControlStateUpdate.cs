@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SecureScoreControlStateUpdate()
         {
-            this.ODataType = "microsoft.graph.secureScoreControlStateUpdate";
         }
 
         /// <summary>

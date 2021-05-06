@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public RemoteItem()
         {
-            this.ODataType = "microsoft.graph.remoteItem";
         }
 
         /// <summary>

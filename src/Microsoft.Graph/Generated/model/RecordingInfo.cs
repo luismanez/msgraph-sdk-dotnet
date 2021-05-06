@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public RecordingInfo()
         {
-            this.ODataType = "microsoft.graph.recordingInfo";
         }
 
         /// <summary>

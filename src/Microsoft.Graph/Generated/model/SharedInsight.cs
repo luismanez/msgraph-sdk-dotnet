@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class SharedInsight : Entity
     {
     
-		///<summary>
-		/// The SharedInsight constructor
-		///</summary>
+        ///<summary>
+        /// The SharedInsight constructor
+        ///</summary>
         public SharedInsight()
         {
-            this.ODataType = "microsoft.graph.sharedInsight";
         }
-	
+
         /// <summary>
         /// Gets or sets last shared.
         /// Details about the shared item. Read only.

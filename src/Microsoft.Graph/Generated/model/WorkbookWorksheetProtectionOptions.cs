@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkbookWorksheetProtectionOptions()
         {
-            this.ODataType = "microsoft.graph.workbookWorksheetProtectionOptions";
         }
 
         /// <summary>

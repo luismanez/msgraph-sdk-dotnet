@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AccessReviewInactiveUsersQueryScope()
         {
-            this.ODataType = "microsoft.graph.accessReviewInactiveUsersQueryScope";
         }
 
         /// <summary>

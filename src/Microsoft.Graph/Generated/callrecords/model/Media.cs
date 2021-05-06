@@ -25,7 +25,6 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public Media()
         {
-            this.ODataType = "microsoft.graph.callRecords.media";
         }
 
         /// <summary>

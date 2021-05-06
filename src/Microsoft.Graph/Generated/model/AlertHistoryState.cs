@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AlertHistoryState()
         {
-            this.ODataType = "microsoft.graph.alertHistoryState";
         }
 
         /// <summary>

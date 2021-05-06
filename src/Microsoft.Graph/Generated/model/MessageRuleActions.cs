@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MessageRuleActions()
         {
-            this.ODataType = "microsoft.graph.messageRuleActions";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TeamGuestSettings()
         {
-            this.ODataType = "microsoft.graph.teamGuestSettings";
         }
 
         /// <summary>

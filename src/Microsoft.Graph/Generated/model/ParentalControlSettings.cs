@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ParentalControlSettings()
         {
-            this.ODataType = "microsoft.graph.parentalControlSettings";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AccessReviewInstanceDecisionItemResource()
         {
-            this.ODataType = "microsoft.graph.accessReviewInstanceDecisionItemResource";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChatInfo()
         {
-            this.ODataType = "microsoft.graph.chatInfo";
         }
 
         /// <summary>

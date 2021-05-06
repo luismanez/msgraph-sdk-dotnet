@@ -25,7 +25,6 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public NetworkInfo()
         {
-            this.ODataType = "microsoft.graph.callRecords.networkInfo";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IncomingContext()
         {
-            this.ODataType = "microsoft.graph.incomingContext";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkbookIcon()
         {
-            this.ODataType = "microsoft.graph.workbookIcon";
         }
 
         /// <summary>

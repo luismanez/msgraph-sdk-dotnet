@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AddIn()
         {
-            this.ODataType = "microsoft.graph.addIn";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Fido2KeyRestrictions()
         {
-            this.ODataType = "microsoft.graph.fido2KeyRestrictions";
         }
 
         /// <summary>

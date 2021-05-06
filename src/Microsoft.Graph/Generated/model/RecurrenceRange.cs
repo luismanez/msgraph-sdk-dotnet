@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public RecurrenceRange()
         {
-            this.ODataType = "microsoft.graph.recurrenceRange";
         }
 
         /// <summary>

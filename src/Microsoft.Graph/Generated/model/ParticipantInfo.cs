@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ParticipantInfo()
         {
-            this.ODataType = "microsoft.graph.participantInfo";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkbookFilterCriteria()
         {
-            this.ODataType = "microsoft.graph.workbookFilterCriteria";
         }
 
         /// <summary>

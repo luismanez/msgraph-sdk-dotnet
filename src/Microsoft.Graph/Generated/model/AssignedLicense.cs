@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AssignedLicense()
         {
-            this.ODataType = "microsoft.graph.assignedLicense";
         }
 
         /// <summary>

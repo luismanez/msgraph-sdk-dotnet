@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrintDocumentUploadProperties()
         {
-            this.ODataType = "microsoft.graph.printDocumentUploadProperties";
         }
 
         /// <summary>

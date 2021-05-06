@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class WorkbookRangeSort : Entity
     {
     
-		///<summary>
-		/// The WorkbookRangeSort constructor
-		///</summary>
+        ///<summary>
+        /// The WorkbookRangeSort constructor
+        ///</summary>
         public WorkbookRangeSort()
         {
-            this.ODataType = "microsoft.graph.workbookRangeSort";
         }
-	
+
     }
 }
 

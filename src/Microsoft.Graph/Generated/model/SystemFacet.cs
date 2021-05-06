@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SystemFacet()
         {
-            this.ODataType = "microsoft.graph.systemFacet";
         }
 
         /// <summary>

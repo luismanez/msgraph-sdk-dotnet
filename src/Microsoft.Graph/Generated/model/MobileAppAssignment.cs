@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class MobileAppAssignment : Entity
     {
     
-		///<summary>
-		/// The MobileAppAssignment constructor
-		///</summary>
+        ///<summary>
+        /// The MobileAppAssignment constructor
+        ///</summary>
         public MobileAppAssignment()
         {
-            this.ODataType = "microsoft.graph.mobileAppAssignment";
         }
-	
+
         /// <summary>
         /// Gets or sets intent.
         /// The install intent defined by the admin. Possible values are: available, required, uninstall, availableWithoutEnrollment.

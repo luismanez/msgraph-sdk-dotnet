@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AppConsentRequestScope()
         {
-            this.ODataType = "microsoft.graph.appConsentRequestScope";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IosNetworkUsageRule()
         {
-            this.ODataType = "microsoft.graph.iosNetworkUsageRule";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public UriClickSecurityState()
         {
-            this.ODataType = "microsoft.graph.uriClickSecurityState";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ResourcePermission()
         {
-            this.ODataType = "microsoft.graph.resourcePermission";
         }
 
         /// <summary>

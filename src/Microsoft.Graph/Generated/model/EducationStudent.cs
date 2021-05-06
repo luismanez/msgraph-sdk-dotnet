@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public EducationStudent()
         {
-            this.ODataType = "microsoft.graph.educationStudent";
         }
 
         /// <summary>

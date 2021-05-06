@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Quota()
         {
-            this.ODataType = "microsoft.graph.quota";
         }
 
         /// <summary>

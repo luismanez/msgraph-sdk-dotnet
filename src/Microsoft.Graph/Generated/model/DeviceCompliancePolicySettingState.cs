@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceCompliancePolicySettingState()
         {
-            this.ODataType = "microsoft.graph.deviceCompliancePolicySettingState";
         }
 
         /// <summary>

@@ -21,14 +21,13 @@ namespace Microsoft.Graph
     public partial class RoleManagement
     {
     
-		///<summary>
-		/// The RoleManagement constructor
-		///</summary>
+        ///<summary>
+        /// The RoleManagement constructor
+        ///</summary>
         public RoleManagement()
         {
-            this.ODataType = "microsoft.graph.roleManagement";
         }
-	
+
         /// <summary>
         /// Gets or sets @odata.type.
         /// </summary>

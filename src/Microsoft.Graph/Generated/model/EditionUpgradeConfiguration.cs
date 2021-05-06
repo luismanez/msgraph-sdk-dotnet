@@ -20,14 +20,14 @@ namespace Microsoft.Graph
     public partial class EditionUpgradeConfiguration : DeviceConfiguration
     {
     
-		///<summary>
-		/// The EditionUpgradeConfiguration constructor
-		///</summary>
+        ///<summary>
+        /// The EditionUpgradeConfiguration constructor
+        ///</summary>
         public EditionUpgradeConfiguration()
         {
             this.ODataType = "microsoft.graph.editionUpgradeConfiguration";
         }
-	
+    
         /// <summary>
         /// Gets or sets license.
         /// Edition Upgrade License File Content.

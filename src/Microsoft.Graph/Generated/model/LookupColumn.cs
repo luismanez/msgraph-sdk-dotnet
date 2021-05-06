@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public LookupColumn()
         {
-            this.ODataType = "microsoft.graph.lookupColumn";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PendingOperations()
         {
-            this.ODataType = "microsoft.graph.pendingOperations";
         }
 
         /// <summary>

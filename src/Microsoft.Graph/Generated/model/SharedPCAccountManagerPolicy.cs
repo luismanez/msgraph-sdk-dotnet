@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SharedPCAccountManagerPolicy()
         {
-            this.ODataType = "microsoft.graph.sharedPCAccountManagerPolicy";
         }
 
         /// <summary>

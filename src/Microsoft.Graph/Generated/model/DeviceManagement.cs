@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class DeviceManagement : Entity
     {
     
-		///<summary>
-		/// The DeviceManagement constructor
-		///</summary>
+        ///<summary>
+        /// The DeviceManagement constructor
+        ///</summary>
         public DeviceManagement()
         {
-            this.ODataType = "microsoft.graph.deviceManagement";
         }
-	
+
         /// <summary>
         /// Gets or sets intune account id.
         /// Intune Account ID for given tenant

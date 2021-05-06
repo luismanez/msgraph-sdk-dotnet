@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TeamClassSettings()
         {
-            this.ODataType = "microsoft.graph.teamClassSettings";
         }
 
         /// <summary>

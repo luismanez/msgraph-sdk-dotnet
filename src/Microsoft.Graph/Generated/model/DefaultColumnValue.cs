@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DefaultColumnValue()
         {
-            this.ODataType = "microsoft.graph.defaultColumnValue";
         }
 
         /// <summary>

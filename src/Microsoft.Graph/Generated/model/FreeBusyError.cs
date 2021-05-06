@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public FreeBusyError()
         {
-            this.ODataType = "microsoft.graph.freeBusyError";
         }
 
         /// <summary>

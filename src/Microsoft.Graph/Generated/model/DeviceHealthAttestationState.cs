@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceHealthAttestationState()
         {
-            this.ODataType = "microsoft.graph.deviceHealthAttestationState";
         }
 
         /// <summary>

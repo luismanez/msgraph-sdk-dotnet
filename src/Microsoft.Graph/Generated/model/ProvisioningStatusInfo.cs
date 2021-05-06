@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ProvisioningStatusInfo()
         {
-            this.ODataType = "microsoft.graph.provisioningStatusInfo";
         }
 
         /// <summary>

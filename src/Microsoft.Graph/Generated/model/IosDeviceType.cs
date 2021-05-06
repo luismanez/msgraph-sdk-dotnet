@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IosDeviceType()
         {
-            this.ODataType = "microsoft.graph.iosDeviceType";
         }
 
         /// <summary>

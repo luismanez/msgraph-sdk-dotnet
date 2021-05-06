@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Win32LobAppInstallExperience()
         {
-            this.ODataType = "microsoft.graph.win32LobAppInstallExperience";
         }
 
         /// <summary>

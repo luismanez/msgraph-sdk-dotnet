@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class UnifiedRoleDefinition : Entity
     {
     
-		///<summary>
-		/// The UnifiedRoleDefinition constructor
-		///</summary>
+        ///<summary>
+        /// The UnifiedRoleDefinition constructor
+        ///</summary>
         public UnifiedRoleDefinition()
         {
-            this.ODataType = "microsoft.graph.unifiedRoleDefinition";
         }
-	
+
         /// <summary>
         /// Gets or sets description.
         /// The description for the unifiedRoleDefinition. Read-only when isBuiltIn is true.

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MediaInfo()
         {
-            this.ODataType = "microsoft.graph.mediaInfo";
         }
 
         /// <summary>

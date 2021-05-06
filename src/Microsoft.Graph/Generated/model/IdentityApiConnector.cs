@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class IdentityApiConnector : Entity
     {
     
-		///<summary>
-		/// The IdentityApiConnector constructor
-		///</summary>
+        ///<summary>
+        /// The IdentityApiConnector constructor
+        ///</summary>
         public IdentityApiConnector()
         {
-            this.ODataType = "microsoft.graph.identityApiConnector";
         }
-	
+
         /// <summary>
         /// Gets or sets authentication configuration.
         /// The object which describes the authentication configuration details for calling the API. Basic and PKCS 12 client certificate are supported.

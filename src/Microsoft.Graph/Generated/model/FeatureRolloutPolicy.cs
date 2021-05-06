@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class FeatureRolloutPolicy : Entity
     {
     
-		///<summary>
-		/// The FeatureRolloutPolicy constructor
-		///</summary>
+        ///<summary>
+        /// The FeatureRolloutPolicy constructor
+        ///</summary>
         public FeatureRolloutPolicy()
         {
-            this.ODataType = "microsoft.graph.featureRolloutPolicy";
         }
-	
+
         /// <summary>
         /// Gets or sets description.
         /// A description for this feature rollout policy.

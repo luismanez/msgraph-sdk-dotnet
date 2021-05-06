@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ManagedAppDiagnosticStatus()
         {
-            this.ODataType = "microsoft.graph.managedAppDiagnosticStatus";
         }
 
         /// <summary>

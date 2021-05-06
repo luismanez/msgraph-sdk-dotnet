@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DomainState()
         {
-            this.ODataType = "microsoft.graph.domainState";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SizeRange()
         {
-            this.ODataType = "microsoft.graph.sizeRange";
         }
 
         /// <summary>

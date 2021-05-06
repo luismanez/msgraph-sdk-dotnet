@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CallRoute()
         {
-            this.ODataType = "microsoft.graph.callRoute";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DateTimeColumn()
         {
-            this.ODataType = "microsoft.graph.dateTimeColumn";
         }
 
         /// <summary>

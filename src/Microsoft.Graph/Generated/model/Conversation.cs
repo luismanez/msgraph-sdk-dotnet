@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class Conversation : Entity
     {
     
-		///<summary>
-		/// The Conversation constructor
-		///</summary>
+        ///<summary>
+        /// The Conversation constructor
+        ///</summary>
         public Conversation()
         {
-            this.ODataType = "microsoft.graph.conversation";
         }
-	
+
         /// <summary>
         /// Gets or sets has attachments.
         /// Indicates whether any of the posts within this Conversation has at least one attachment.

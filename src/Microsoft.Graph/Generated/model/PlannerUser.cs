@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class PlannerUser : Entity
     {
     
-		///<summary>
-		/// The PlannerUser constructor
-		///</summary>
+        ///<summary>
+        /// The PlannerUser constructor
+        ///</summary>
         public PlannerUser()
         {
-            this.ODataType = "microsoft.graph.plannerUser";
         }
-	
+
         /// <summary>
         /// Gets or sets plans.
         /// Read-only. Nullable. Returns the plannerTasks assigned to the user.

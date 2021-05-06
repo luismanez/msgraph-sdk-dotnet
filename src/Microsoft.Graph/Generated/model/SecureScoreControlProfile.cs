@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class SecureScoreControlProfile : Entity
     {
     
-		///<summary>
-		/// The SecureScoreControlProfile constructor
-		///</summary>
+        ///<summary>
+        /// The SecureScoreControlProfile constructor
+        ///</summary>
         public SecureScoreControlProfile()
         {
-            this.ODataType = "microsoft.graph.secureScoreControlProfile";
         }
-	
+
         /// <summary>
         /// Gets or sets action type.
         /// Control action type (Config, Review, Behavior).

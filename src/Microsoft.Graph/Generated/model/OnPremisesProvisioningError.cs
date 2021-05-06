@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OnPremisesProvisioningError()
         {
-            this.ODataType = "microsoft.graph.onPremisesProvisioningError";
         }
 
         /// <summary>
