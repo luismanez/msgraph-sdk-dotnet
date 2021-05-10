@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class OutlookCategory : Entity
     {
     
-		///<summary>
-		/// The OutlookCategory constructor
-		///</summary>
+        ///<summary>
+        /// The OutlookCategory constructor
+        ///</summary>
         public OutlookCategory()
         {
-            this.ODataType = "microsoft.graph.outlookCategory";
         }
-	
+
         /// <summary>
         /// Gets or sets color.
         /// A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. See the note below.

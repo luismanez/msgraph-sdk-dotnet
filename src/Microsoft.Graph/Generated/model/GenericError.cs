@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public GenericError()
         {
-            this.ODataType = "microsoft.graph.genericError";
         }
 
         /// <summary>

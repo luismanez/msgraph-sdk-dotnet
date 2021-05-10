@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkbookSortField()
         {
-            this.ODataType = "microsoft.graph.workbookSortField";
         }
 
         /// <summary>

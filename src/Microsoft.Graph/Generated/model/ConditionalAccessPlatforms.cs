@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ConditionalAccessPlatforms()
         {
-            this.ODataType = "microsoft.graph.conditionalAccessPlatforms";
         }
 
         /// <summary>

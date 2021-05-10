@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ProxiedDomain()
         {
-            this.ODataType = "microsoft.graph.proxiedDomain";
         }
 
         /// <summary>

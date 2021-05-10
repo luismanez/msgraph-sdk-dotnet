@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ItemBody()
         {
-            this.ODataType = "microsoft.graph.itemBody";
         }
 
         /// <summary>

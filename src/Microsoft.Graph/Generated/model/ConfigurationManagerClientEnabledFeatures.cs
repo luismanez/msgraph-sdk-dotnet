@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ConfigurationManagerClientEnabledFeatures()
         {
-            this.ODataType = "microsoft.graph.configurationManagerClientEnabledFeatures";
         }
 
         /// <summary>

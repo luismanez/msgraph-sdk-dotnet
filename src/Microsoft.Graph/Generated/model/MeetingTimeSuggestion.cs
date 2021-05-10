@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MeetingTimeSuggestion()
         {
-            this.ODataType = "microsoft.graph.meetingTimeSuggestion";
         }
 
         /// <summary>

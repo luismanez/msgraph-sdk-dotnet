@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public FileSystemInfo()
         {
-            this.ODataType = "microsoft.graph.fileSystemInfo";
         }
 
         /// <summary>

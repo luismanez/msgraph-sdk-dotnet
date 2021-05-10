@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class DelegatedPermissionClassification : Entity
     {
     
-		///<summary>
-		/// The DelegatedPermissionClassification constructor
-		///</summary>
+        ///<summary>
+        /// The DelegatedPermissionClassification constructor
+        ///</summary>
         public DelegatedPermissionClassification()
         {
-            this.ODataType = "microsoft.graph.delegatedPermissionClassification";
         }
-	
+
         /// <summary>
         /// Gets or sets classification.
         /// The classification value being given. Possible value: low. Does not support $filter.

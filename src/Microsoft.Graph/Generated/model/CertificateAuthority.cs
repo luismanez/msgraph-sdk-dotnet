@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CertificateAuthority()
         {
-            this.ODataType = "microsoft.graph.certificateAuthority";
         }
 
         /// <summary>

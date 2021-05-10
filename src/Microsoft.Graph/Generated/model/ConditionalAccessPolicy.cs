@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ConditionalAccessPolicy : Entity
     {
     
-		///<summary>
-		/// The ConditionalAccessPolicy constructor
-		///</summary>
+        ///<summary>
+        /// The ConditionalAccessPolicy constructor
+        ///</summary>
         public ConditionalAccessPolicy()
         {
-            this.ODataType = "microsoft.graph.conditionalAccessPolicy";
         }
-	
+
         /// <summary>
         /// Gets or sets conditions.
         /// Specifies the rules that must be met for the policy to apply. Required.

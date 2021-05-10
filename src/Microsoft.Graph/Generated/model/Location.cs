@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Location()
         {
-            this.ODataType = "microsoft.graph.location";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class CertificateBasedAuthConfiguration : Entity
     {
     
-		///<summary>
-		/// The CertificateBasedAuthConfiguration constructor
-		///</summary>
+        ///<summary>
+        /// The CertificateBasedAuthConfiguration constructor
+        ///</summary>
         public CertificateBasedAuthConfiguration()
         {
-            this.ODataType = "microsoft.graph.certificateBasedAuthConfiguration";
         }
-	
+
         /// <summary>
         /// Gets or sets certificate authorities.
         /// Collection of certificate authorities which creates a trusted certificate chain.

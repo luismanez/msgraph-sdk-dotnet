@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IosMinimumOperatingSystem()
         {
-            this.ODataType = "microsoft.graph.iosMinimumOperatingSystem";
         }
 
         /// <summary>

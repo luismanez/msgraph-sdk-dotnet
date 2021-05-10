@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PlannerExternalReference()
         {
-            this.ODataType = "microsoft.graph.plannerExternalReference";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PermissionScope()
         {
-            this.ODataType = "microsoft.graph.permissionScope";
         }
 
         /// <summary>

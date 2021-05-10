@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ObjectIdentity()
         {
-            this.ODataType = "microsoft.graph.objectIdentity";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class WorkforceIntegration : ChangeTrackedEntity
     {
     
-		///<summary>
-		/// The WorkforceIntegration constructor
-		///</summary>
+        ///<summary>
+        /// The WorkforceIntegration constructor
+        ///</summary>
         public WorkforceIntegration()
         {
-            this.ODataType = "microsoft.graph.workforceIntegration";
         }
-	
+
         /// <summary>
         /// Gets or sets api version.
         /// API version for the call back URL. Start with 1.

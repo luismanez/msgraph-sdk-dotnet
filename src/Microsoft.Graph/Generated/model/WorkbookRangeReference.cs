@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkbookRangeReference()
         {
-            this.ODataType = "microsoft.graph.workbookRangeReference";
         }
 
         /// <summary>

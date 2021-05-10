@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SignInStatus()
         {
-            this.ODataType = "microsoft.graph.signInStatus";
         }
 
         /// <summary>

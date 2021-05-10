@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class UserFlowLanguagePage : Entity
     {
     
-		///<summary>
-		/// The UserFlowLanguagePage constructor
-		///</summary>
+        ///<summary>
+        /// The UserFlowLanguagePage constructor
+        ///</summary>
         public UserFlowLanguagePage()
         {
-            this.ODataType = "microsoft.graph.userFlowLanguagePage";
         }
-	
+
     }
 }
 

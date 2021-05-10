@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MailTipsError()
         {
-            this.ODataType = "microsoft.graph.mailTipsError";
         }
 
         /// <summary>

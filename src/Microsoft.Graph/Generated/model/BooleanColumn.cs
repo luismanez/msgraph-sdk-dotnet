@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public BooleanColumn()
         {
-            this.ODataType = "microsoft.graph.booleanColumn";
         }
 
         /// <summary>

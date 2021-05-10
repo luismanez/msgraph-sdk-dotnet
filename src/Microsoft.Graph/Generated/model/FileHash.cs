@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public FileHash()
         {
-            this.ODataType = "microsoft.graph.fileHash";
         }
 
         /// <summary>

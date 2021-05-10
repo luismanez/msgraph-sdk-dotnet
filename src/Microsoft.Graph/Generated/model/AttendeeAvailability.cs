@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AttendeeAvailability()
         {
-            this.ODataType = "microsoft.graph.attendeeAvailability";
         }
 
         /// <summary>

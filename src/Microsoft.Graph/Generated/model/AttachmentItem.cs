@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AttachmentItem()
         {
-            this.ODataType = "microsoft.graph.attachmentItem";
         }
 
         /// <summary>

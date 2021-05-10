@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AlternativeSecurityId()
         {
-            this.ODataType = "microsoft.graph.alternativeSecurityId";
         }
 
         /// <summary>

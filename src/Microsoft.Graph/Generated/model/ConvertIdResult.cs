@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ConvertIdResult()
         {
-            this.ODataType = "microsoft.graph.convertIdResult";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WindowsFirewallNetworkProfile()
         {
-            this.ODataType = "microsoft.graph.windowsFirewallNetworkProfile";
         }
 
         /// <summary>

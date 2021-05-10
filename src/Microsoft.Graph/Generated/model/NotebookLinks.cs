@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public NotebookLinks()
         {
-            this.ODataType = "microsoft.graph.notebookLinks";
         }
 
         /// <summary>

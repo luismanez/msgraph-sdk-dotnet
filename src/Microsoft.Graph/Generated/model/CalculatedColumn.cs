@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CalculatedColumn()
         {
-            this.ODataType = "microsoft.graph.calculatedColumn";
         }
 
         /// <summary>

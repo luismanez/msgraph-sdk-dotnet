@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ServicePlanInfo()
         {
-            this.ODataType = "microsoft.graph.servicePlanInfo";
         }
 
         /// <summary>

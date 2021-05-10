@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SectionLinks()
         {
-            this.ODataType = "microsoft.graph.sectionLinks";
         }
 
         /// <summary>

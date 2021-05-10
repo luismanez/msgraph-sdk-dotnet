@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AssignedPlan()
         {
-            this.ODataType = "microsoft.graph.assignedPlan";
         }
 
         /// <summary>

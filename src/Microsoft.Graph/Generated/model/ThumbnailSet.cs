@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ThumbnailSet : Entity
     {
     
-		///<summary>
-		/// The ThumbnailSet constructor
-		///</summary>
+        ///<summary>
+        /// The ThumbnailSet constructor
+        ///</summary>
         public ThumbnailSet()
         {
-            this.ODataType = "microsoft.graph.thumbnailSet";
         }
-	
+
         /// <summary>
         /// Gets or sets large.
         /// A 1920x1920 scaled thumbnail.

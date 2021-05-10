@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class MobileThreatDefenseConnector : Entity
     {
     
-		///<summary>
-		/// The MobileThreatDefenseConnector constructor
-		///</summary>
+        ///<summary>
+        /// The MobileThreatDefenseConnector constructor
+        ///</summary>
         public MobileThreatDefenseConnector()
         {
-            this.ODataType = "microsoft.graph.mobileThreatDefenseConnector";
         }
-	
+
         /// <summary>
         /// Gets or sets android device blocked on missing partner data.
         /// For Android, set whether Intune must receive data from the data sync partner prior to marking a device compliant

@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CloudAppSecuritySessionControl()
         {
-            this.ODataType = "microsoft.graph.cloudAppSecuritySessionControl";
         }
 
         /// <summary>

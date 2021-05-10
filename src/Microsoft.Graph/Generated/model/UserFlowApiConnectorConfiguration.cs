@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public UserFlowApiConnectorConfiguration()
         {
-            this.ODataType = "microsoft.graph.userFlowApiConnectorConfiguration";
         }
 
         /// <summary>

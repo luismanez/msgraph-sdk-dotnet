@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Pkcs12CertificateInformation()
         {
-            this.ODataType = "microsoft.graph.pkcs12CertificateInformation";
         }
 
         /// <summary>

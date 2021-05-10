@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrintCertificateSigningRequestObject()
         {
-            this.ODataType = "microsoft.graph.printCertificateSigningRequest";
         }
 
         /// <summary>

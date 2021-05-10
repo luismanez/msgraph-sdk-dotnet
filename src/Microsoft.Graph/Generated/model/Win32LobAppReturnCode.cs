@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Win32LobAppReturnCode()
         {
-            this.ODataType = "microsoft.graph.win32LobAppReturnCode";
         }
 
         /// <summary>

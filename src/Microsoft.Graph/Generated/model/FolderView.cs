@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public FolderView()
         {
-            this.ODataType = "microsoft.graph.folderView";
         }
 
         /// <summary>

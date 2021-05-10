@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public NetworkConnection()
         {
-            this.ODataType = "microsoft.graph.networkConnection";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SearchRequestObject()
         {
-            this.ODataType = "microsoft.graph.searchRequest";
         }
 
         /// <summary>

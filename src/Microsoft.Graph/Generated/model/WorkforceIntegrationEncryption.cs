@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkforceIntegrationEncryption()
         {
-            this.ODataType = "microsoft.graph.workforceIntegrationEncryption";
         }
 
         /// <summary>

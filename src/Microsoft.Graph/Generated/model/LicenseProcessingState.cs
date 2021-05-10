@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public LicenseProcessingState()
         {
-            this.ODataType = "microsoft.graph.licenseProcessingState";
         }
 
         /// <summary>

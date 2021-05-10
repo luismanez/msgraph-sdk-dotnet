@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class PrintConnector : Entity
     {
     
-		///<summary>
-		/// The PrintConnector constructor
-		///</summary>
+        ///<summary>
+        /// The PrintConnector constructor
+        ///</summary>
         public PrintConnector()
         {
-            this.ODataType = "microsoft.graph.printConnector";
         }
-	
+
         /// <summary>
         /// Gets or sets app version.
         /// The connector's version.

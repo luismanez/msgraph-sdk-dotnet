@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChatMessagePolicyViolationPolicyTip()
         {
-            this.ODataType = "microsoft.graph.chatMessagePolicyViolationPolicyTip";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TimeRange()
         {
-            this.ODataType = "microsoft.graph.timeRange";
         }
 
         /// <summary>

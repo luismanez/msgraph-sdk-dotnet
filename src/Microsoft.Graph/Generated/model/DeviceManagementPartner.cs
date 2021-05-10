@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class DeviceManagementPartner : Entity
     {
     
-		///<summary>
-		/// The DeviceManagementPartner constructor
-		///</summary>
+        ///<summary>
+        /// The DeviceManagementPartner constructor
+        ///</summary>
         public DeviceManagementPartner()
         {
-            this.ODataType = "microsoft.graph.deviceManagementPartner";
         }
-	
+
         /// <summary>
         /// Gets or sets display name.
         /// Partner display name

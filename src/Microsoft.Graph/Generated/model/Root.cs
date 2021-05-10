@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Root()
         {
-            this.ODataType = "microsoft.graph.root";
         }
 
         /// <summary>

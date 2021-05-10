@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class PrintTask : Entity
     {
     
-		///<summary>
-		/// The PrintTask constructor
-		///</summary>
+        ///<summary>
+        /// The PrintTask constructor
+        ///</summary>
         public PrintTask()
         {
-            this.ODataType = "microsoft.graph.printTask";
         }
-	
+
         /// <summary>
         /// Gets or sets parent url.
         /// The URL for the print entity that triggered this task. For example, https://graph.microsoft.com/v1.0/print/printers/{printerId}/jobs/{jobId}. Read-only.

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AppRole()
         {
-            this.ODataType = "microsoft.graph.appRole";
         }
 
         /// <summary>

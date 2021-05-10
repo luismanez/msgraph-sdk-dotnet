@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PersistentBrowserSessionControl()
         {
-            this.ODataType = "microsoft.graph.persistentBrowserSessionControl";
         }
 
         /// <summary>

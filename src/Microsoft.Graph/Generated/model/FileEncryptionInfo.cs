@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public FileEncryptionInfo()
         {
-            this.ODataType = "microsoft.graph.fileEncryptionInfo";
         }
 
         /// <summary>

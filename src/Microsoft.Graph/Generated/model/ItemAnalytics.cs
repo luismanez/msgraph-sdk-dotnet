@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ItemAnalytics : Entity
     {
     
-		///<summary>
-		/// The ItemAnalytics constructor
-		///</summary>
+        ///<summary>
+        /// The ItemAnalytics constructor
+        ///</summary>
         public ItemAnalytics()
         {
-            this.ODataType = "microsoft.graph.itemAnalytics";
         }
-	
+
         /// <summary>
         /// Gets or sets all time.
         /// </summary>

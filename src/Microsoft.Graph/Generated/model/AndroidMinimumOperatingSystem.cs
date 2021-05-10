@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AndroidMinimumOperatingSystem()
         {
-            this.ODataType = "microsoft.graph.androidMinimumOperatingSystem";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CallTranscriptionInfo()
         {
-            this.ODataType = "microsoft.graph.callTranscriptionInfo";
         }
 
         /// <summary>

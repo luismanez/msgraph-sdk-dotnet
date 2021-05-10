@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class PrintUsageByPrinter : PrintUsage
     {
     
-		///<summary>
-		/// The PrintUsageByPrinter constructor
-		///</summary>
+        ///<summary>
+        /// The PrintUsageByPrinter constructor
+        ///</summary>
         public PrintUsageByPrinter()
         {
-            this.ODataType = "microsoft.graph.printUsageByPrinter";
         }
-	
+
         /// <summary>
         /// Gets or sets printer id.
         /// </summary>

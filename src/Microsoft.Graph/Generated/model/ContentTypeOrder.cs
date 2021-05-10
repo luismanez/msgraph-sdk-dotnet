@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ContentTypeOrder()
         {
-            this.ODataType = "microsoft.graph.contentTypeOrder";
         }
 
         /// <summary>

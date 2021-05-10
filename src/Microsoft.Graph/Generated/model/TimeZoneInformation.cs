@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TimeZoneInformation()
         {
-            this.ODataType = "microsoft.graph.timeZoneInformation";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class WorkbookOperation : Entity
     {
     
-		///<summary>
-		/// The WorkbookOperation constructor
-		///</summary>
+        ///<summary>
+        /// The WorkbookOperation constructor
+        ///</summary>
         public WorkbookOperation()
         {
-            this.ODataType = "microsoft.graph.workbookOperation";
         }
-	
+
         /// <summary>
         /// Gets or sets error.
         /// The error returned by the operation.

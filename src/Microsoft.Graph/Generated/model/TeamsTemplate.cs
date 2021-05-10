@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class TeamsTemplate : Entity
     {
     
-		///<summary>
-		/// The TeamsTemplate constructor
-		///</summary>
+        ///<summary>
+        /// The TeamsTemplate constructor
+        ///</summary>
         public TeamsTemplate()
         {
-            this.ODataType = "microsoft.graph.teamsTemplate";
         }
-	
+
     }
 }
 

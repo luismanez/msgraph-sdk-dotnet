@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public EmployeeOrgData()
         {
-            this.ODataType = "microsoft.graph.employeeOrgData";
         }
 
         /// <summary>

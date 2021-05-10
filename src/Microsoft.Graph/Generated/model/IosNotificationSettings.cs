@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public IosNotificationSettings()
         {
-            this.ODataType = "microsoft.graph.iosNotificationSettings";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Process()
         {
-            this.ODataType = "microsoft.graph.process";
         }
 
         /// <summary>

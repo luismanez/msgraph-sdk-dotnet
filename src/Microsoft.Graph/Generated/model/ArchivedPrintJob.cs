@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ArchivedPrintJob()
         {
-            this.ODataType = "microsoft.graph.archivedPrintJob";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class AgreementFileProperties : Entity
     {
     
-		///<summary>
-		/// The AgreementFileProperties constructor
-		///</summary>
+        ///<summary>
+        /// The AgreementFileProperties constructor
+        ///</summary>
         public AgreementFileProperties()
         {
-            this.ODataType = "microsoft.graph.agreementFileProperties";
         }
-	
+
         /// <summary>
         /// Gets or sets created date time.
         /// </summary>

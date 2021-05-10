@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public InternetMessageHeader()
         {
-            this.ODataType = "microsoft.graph.internetMessageHeader";
         }
 
         /// <summary>

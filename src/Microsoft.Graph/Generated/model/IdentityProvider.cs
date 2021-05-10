@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class IdentityProvider : Entity
     {
     
-		///<summary>
-		/// The IdentityProvider constructor
-		///</summary>
+        ///<summary>
+        /// The IdentityProvider constructor
+        ///</summary>
         public IdentityProvider()
         {
-            this.ODataType = "microsoft.graph.identityProvider";
         }
-	
+
         /// <summary>
         /// Gets or sets client id.
         /// The client ID for the application. This is the client ID obtained when registering the application with the identity provider. Required. Not nullable.

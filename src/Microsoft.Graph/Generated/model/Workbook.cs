@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class Workbook : Entity
     {
     
-		///<summary>
-		/// The Workbook constructor
-		///</summary>
+        ///<summary>
+        /// The Workbook constructor
+        ///</summary>
         public Workbook()
         {
-            this.ODataType = "microsoft.graph.workbook";
         }
-	
+
         /// <summary>
         /// Gets or sets application.
         /// </summary>

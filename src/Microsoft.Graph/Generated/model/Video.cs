@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Video()
         {
-            this.ODataType = "microsoft.graph.video";
         }
 
         /// <summary>

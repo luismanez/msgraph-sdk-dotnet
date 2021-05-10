@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Diagnostic()
         {
-            this.ODataType = "microsoft.graph.diagnostic";
         }
 
         /// <summary>

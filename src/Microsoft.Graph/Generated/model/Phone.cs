@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Phone()
         {
-            this.ODataType = "microsoft.graph.phone";
         }
 
         /// <summary>

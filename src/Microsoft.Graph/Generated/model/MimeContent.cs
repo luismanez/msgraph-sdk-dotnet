@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public MimeContent()
         {
-            this.ODataType = "microsoft.graph.mimeContent";
         }
 
         /// <summary>

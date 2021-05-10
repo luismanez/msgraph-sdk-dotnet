@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ConditionalAccessUsers()
         {
-            this.ODataType = "microsoft.graph.conditionalAccessUsers";
         }
 
         /// <summary>

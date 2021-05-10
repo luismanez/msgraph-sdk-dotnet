@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TermsExpiration()
         {
-            this.ODataType = "microsoft.graph.termsExpiration";
         }
 
         /// <summary>

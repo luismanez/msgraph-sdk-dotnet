@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrinterStatus()
         {
-            this.ODataType = "microsoft.graph.printerStatus";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceManagementSettings()
         {
-            this.ODataType = "microsoft.graph.deviceManagementSettings";
         }
 
         /// <summary>

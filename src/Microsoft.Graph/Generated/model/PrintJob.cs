@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class PrintJob : Entity
     {
     
-		///<summary>
-		/// The PrintJob constructor
-		///</summary>
+        ///<summary>
+        /// The PrintJob constructor
+        ///</summary>
         public PrintJob()
         {
-            this.ODataType = "microsoft.graph.printJob";
         }
-	
+
         /// <summary>
         /// Gets or sets configuration.
         /// A group of settings that a printer should use to print a job.

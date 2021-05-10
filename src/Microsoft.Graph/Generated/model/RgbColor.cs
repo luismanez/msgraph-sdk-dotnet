@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public RgbColor()
         {
-            this.ODataType = "microsoft.graph.rgbColor";
         }
 
         /// <summary>

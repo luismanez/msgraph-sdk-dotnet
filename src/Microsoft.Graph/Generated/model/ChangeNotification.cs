@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChangeNotification()
         {
-            this.ODataType = "microsoft.graph.changeNotification";
         }
 
         /// <summary>

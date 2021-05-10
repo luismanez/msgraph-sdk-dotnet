@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ResourceVisualization()
         {
-            this.ODataType = "microsoft.graph.resourceVisualization";
         }
 
         /// <summary>

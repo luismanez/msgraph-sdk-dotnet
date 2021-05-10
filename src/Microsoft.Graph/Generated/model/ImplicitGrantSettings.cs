@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ImplicitGrantSettings()
         {
-            this.ODataType = "microsoft.graph.implicitGrantSettings";
         }
 
         /// <summary>

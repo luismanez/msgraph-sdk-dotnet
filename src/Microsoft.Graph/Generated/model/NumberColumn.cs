@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public NumberColumn()
         {
-            this.ODataType = "microsoft.graph.numberColumn";
         }
 
         /// <summary>

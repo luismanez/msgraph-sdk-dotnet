@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AadUserNotificationRecipient()
         {
-            this.ODataType = "microsoft.graph.aadUserNotificationRecipient";
         }
 
         /// <summary>

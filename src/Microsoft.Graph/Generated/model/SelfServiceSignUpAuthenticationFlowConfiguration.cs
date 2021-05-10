@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SelfServiceSignUpAuthenticationFlowConfiguration()
         {
-            this.ODataType = "microsoft.graph.selfServiceSignUpAuthenticationFlowConfiguration";
         }
 
         /// <summary>

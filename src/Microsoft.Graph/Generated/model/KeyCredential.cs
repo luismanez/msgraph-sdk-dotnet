@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public KeyCredential()
         {
-            this.ODataType = "microsoft.graph.keyCredential";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ImportedWindowsAutopilotDeviceIdentityState()
         {
-            this.ODataType = "microsoft.graph.importedWindowsAutopilotDeviceIdentityState";
         }
 
         /// <summary>

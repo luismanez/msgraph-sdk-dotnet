@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AccessReviewScope()
         {
-            this.ODataType = "microsoft.graph.accessReviewScope";
         }
 
         /// <summary>

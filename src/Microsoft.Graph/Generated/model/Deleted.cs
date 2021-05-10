@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Deleted()
         {
-            this.ODataType = "microsoft.graph.deleted";
         }
 
         /// <summary>

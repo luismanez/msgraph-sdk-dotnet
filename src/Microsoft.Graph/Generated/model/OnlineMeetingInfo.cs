@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public OnlineMeetingInfo()
         {
-            this.ODataType = "microsoft.graph.onlineMeetingInfo";
         }
 
         /// <summary>

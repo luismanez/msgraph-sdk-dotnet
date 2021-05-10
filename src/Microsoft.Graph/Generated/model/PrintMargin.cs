@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PrintMargin()
         {
-            this.ODataType = "microsoft.graph.printMargin";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WindowsInformationProtectionDataRecoveryCertificate()
         {
-            this.ODataType = "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate";
         }
 
         /// <summary>

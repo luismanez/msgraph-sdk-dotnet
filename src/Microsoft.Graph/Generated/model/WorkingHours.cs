@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkingHours()
         {
-            this.ODataType = "microsoft.graph.workingHours";
         }
 
         /// <summary>

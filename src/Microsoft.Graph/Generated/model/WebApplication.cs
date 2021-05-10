@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WebApplication()
         {
-            this.ODataType = "microsoft.graph.webApplication";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AssignmentOrder()
         {
-            this.ODataType = "microsoft.graph.assignmentOrder";
         }
 
         /// <summary>

@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class TermsAndConditionsAssignment : Entity
     {
     
-		///<summary>
-		/// The TermsAndConditionsAssignment constructor
-		///</summary>
+        ///<summary>
+        /// The TermsAndConditionsAssignment constructor
+        ///</summary>
         public TermsAndConditionsAssignment()
         {
-            this.ODataType = "microsoft.graph.termsAndConditionsAssignment";
         }
-	
+
         /// <summary>
         /// Gets or sets target.
         /// Assignment target that the T&amp;C policy is assigned to.

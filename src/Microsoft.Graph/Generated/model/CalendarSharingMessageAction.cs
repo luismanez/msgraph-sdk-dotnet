@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public CalendarSharingMessageAction()
         {
-            this.ODataType = "microsoft.graph.calendarSharingMessageAction";
         }
 
         /// <summary>

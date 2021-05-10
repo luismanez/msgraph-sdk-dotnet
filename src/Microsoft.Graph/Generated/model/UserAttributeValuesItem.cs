@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public UserAttributeValuesItem()
         {
-            this.ODataType = "microsoft.graph.userAttributeValuesItem";
         }
 
         /// <summary>

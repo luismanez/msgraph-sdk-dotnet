@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class ImportedWindowsAutopilotDeviceIdentity : Entity
     {
     
-		///<summary>
-		/// The ImportedWindowsAutopilotDeviceIdentity constructor
-		///</summary>
+        ///<summary>
+        /// The ImportedWindowsAutopilotDeviceIdentity constructor
+        ///</summary>
         public ImportedWindowsAutopilotDeviceIdentity()
         {
-            this.ODataType = "microsoft.graph.importedWindowsAutopilotDeviceIdentity";
         }
-	
+
         /// <summary>
         /// Gets or sets assigned user principal name.
         /// UPN of the user the device will be assigned

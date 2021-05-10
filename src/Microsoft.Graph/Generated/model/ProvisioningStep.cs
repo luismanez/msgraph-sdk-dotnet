@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ProvisioningStep()
         {
-            this.ODataType = "microsoft.graph.provisioningStep";
         }
 
         /// <summary>

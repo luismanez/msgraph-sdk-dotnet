@@ -25,7 +25,6 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public DeviceInfo()
         {
-            this.ODataType = "microsoft.graph.callRecords.deviceInfo";
         }
 
         /// <summary>

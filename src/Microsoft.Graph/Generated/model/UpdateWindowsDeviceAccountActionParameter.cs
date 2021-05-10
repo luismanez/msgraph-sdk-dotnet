@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public UpdateWindowsDeviceAccountActionParameter()
         {
-            this.ODataType = "microsoft.graph.updateWindowsDeviceAccountActionParameter";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WindowsInformationProtectionProxiedDomainCollection()
         {
-            this.ODataType = "microsoft.graph.windowsInformationProtectionProxiedDomainCollection";
         }
 
         /// <summary>

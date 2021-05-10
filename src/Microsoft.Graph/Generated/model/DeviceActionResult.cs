@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceActionResult()
         {
-            this.ODataType = "microsoft.graph.deviceActionResult";
         }
 
         /// <summary>

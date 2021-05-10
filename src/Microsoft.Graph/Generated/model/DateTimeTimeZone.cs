@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DateTimeTimeZone()
         {
-            this.ODataType = "microsoft.graph.dateTimeTimeZone";
         }
 
         /// <summary>

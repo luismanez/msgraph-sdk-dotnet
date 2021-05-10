@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WindowsInformationProtectionResourceCollection()
         {
-            this.ODataType = "microsoft.graph.windowsInformationProtectionResourceCollection";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public TeamworkActivityTopic()
         {
-            this.ODataType = "microsoft.graph.teamworkActivityTopic";
         }
 
         /// <summary>

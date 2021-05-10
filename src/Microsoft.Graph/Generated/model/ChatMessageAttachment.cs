@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChatMessageAttachment()
         {
-            this.ODataType = "microsoft.graph.chatMessageAttachment";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public RegistryKeyState()
         {
-            this.ODataType = "microsoft.graph.registryKeyState";
         }
 
         /// <summary>

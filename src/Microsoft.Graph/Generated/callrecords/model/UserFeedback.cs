@@ -25,7 +25,6 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public UserFeedback()
         {
-            this.ODataType = "microsoft.graph.callRecords.userFeedback";
         }
 
         /// <summary>

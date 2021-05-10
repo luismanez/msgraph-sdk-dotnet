@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public AuditActivityInitiator()
         {
-            this.ODataType = "microsoft.graph.auditActivityInitiator";
         }
 
         /// <summary>

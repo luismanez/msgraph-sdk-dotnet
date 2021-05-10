@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeviceOperatingSystemSummary()
         {
-            this.ODataType = "microsoft.graph.deviceOperatingSystemSummary";
         }
 
         /// <summary>

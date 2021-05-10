@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PatternedRecurrence()
         {
-            this.ODataType = "microsoft.graph.patternedRecurrence";
         }
 
         /// <summary>

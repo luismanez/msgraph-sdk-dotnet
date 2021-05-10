@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SecurityVendorInformation()
         {
-            this.ODataType = "microsoft.graph.securityVendorInformation";
         }
 
         /// <summary>

@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public DeletedWindowsAutopilotDeviceState()
         {
-            this.ODataType = "microsoft.graph.deletedWindowsAutopilotDeviceState";
         }
 
         /// <summary>

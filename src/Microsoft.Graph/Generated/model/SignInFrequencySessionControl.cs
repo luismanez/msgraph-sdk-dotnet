@@ -24,7 +24,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SignInFrequencySessionControl()
         {
-            this.ODataType = "microsoft.graph.signInFrequencySessionControl";
         }
 
         /// <summary>

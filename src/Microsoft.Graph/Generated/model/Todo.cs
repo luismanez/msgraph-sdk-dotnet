@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class Todo : Entity
     {
     
-		///<summary>
-		/// The Todo constructor
-		///</summary>
+        ///<summary>
+        /// The Todo constructor
+        ///</summary>
         public Todo()
         {
-            this.ODataType = "microsoft.graph.todo";
         }
-	
+
         /// <summary>
         /// Gets or sets lists.
         /// The task lists in the users mailbox.

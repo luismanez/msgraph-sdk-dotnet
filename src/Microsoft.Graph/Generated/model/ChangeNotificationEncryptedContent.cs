@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ChangeNotificationEncryptedContent()
         {
-            this.ODataType = "microsoft.graph.changeNotificationEncryptedContent";
         }
 
         /// <summary>

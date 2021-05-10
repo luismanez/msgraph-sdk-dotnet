@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public SpecialFolder()
         {
-            this.ODataType = "microsoft.graph.specialFolder";
         }
 
         /// <summary>

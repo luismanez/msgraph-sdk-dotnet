@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ModifiedProperty()
         {
-            this.ODataType = "microsoft.graph.modifiedProperty";
         }
 
         /// <summary>

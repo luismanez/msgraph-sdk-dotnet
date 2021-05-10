@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public HostSecurityState()
         {
-            this.ODataType = "microsoft.graph.hostSecurityState";
         }
 
         /// <summary>

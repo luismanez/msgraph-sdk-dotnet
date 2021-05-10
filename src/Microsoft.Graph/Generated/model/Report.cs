@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Report()
         {
-            this.ODataType = "microsoft.graph.report";
         }
 
         /// <summary>

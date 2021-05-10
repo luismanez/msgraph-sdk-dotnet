@@ -20,14 +20,13 @@ namespace Microsoft.Graph
     public partial class DeviceComplianceUserStatus : Entity
     {
     
-		///<summary>
-		/// The DeviceComplianceUserStatus constructor
-		///</summary>
+        ///<summary>
+        /// The DeviceComplianceUserStatus constructor
+        ///</summary>
         public DeviceComplianceUserStatus()
         {
-            this.ODataType = "microsoft.graph.deviceComplianceUserStatus";
         }
-	
+
         /// <summary>
         /// Gets or sets devices count.
         /// Devices count for that user.

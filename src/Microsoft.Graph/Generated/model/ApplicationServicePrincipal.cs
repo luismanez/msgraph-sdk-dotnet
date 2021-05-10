@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ApplicationServicePrincipal()
         {
-            this.ODataType = "microsoft.graph.applicationServicePrincipal";
         }
 
         /// <summary>

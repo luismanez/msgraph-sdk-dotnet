@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public WorkbookSessionInfo()
         {
-            this.ODataType = "microsoft.graph.workbookSessionInfo";
         }
 
         /// <summary>

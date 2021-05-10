@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public BitLockerRemovableDrivePolicy()
         {
-            this.ODataType = "microsoft.graph.bitLockerRemovableDrivePolicy";
         }
 
         /// <summary>

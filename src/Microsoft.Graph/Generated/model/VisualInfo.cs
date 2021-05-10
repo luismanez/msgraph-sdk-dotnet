@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public VisualInfo()
         {
-            this.ODataType = "microsoft.graph.visualInfo";
         }
 
         /// <summary>

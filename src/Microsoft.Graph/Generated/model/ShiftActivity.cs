@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public ShiftActivity()
         {
-            this.ODataType = "microsoft.graph.shiftActivity";
         }
 
         /// <summary>

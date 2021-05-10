@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public Package()
         {
-            this.ODataType = "microsoft.graph.package";
         }
 
         /// <summary>

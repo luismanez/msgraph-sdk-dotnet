@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public VerifiedDomain()
         {
-            this.ODataType = "microsoft.graph.verifiedDomain";
         }
 
         /// <summary>

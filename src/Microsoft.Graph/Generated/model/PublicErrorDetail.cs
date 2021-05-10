@@ -25,7 +25,6 @@ namespace Microsoft.Graph
         /// </summary>
         public PublicErrorDetail()
         {
-            this.ODataType = "microsoft.graph.publicErrorDetail";
         }
 
         /// <summary>
