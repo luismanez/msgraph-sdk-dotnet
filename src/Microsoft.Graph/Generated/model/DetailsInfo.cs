@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public DetailsInfo()
         {
+            this.ODataType = "microsoft.graph.detailsInfo";
         }
 
         /// <summary>

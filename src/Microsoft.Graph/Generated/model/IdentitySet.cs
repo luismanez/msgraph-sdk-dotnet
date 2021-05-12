@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public IdentitySet()
         {
+            this.ODataType = "microsoft.graph.identitySet";
         }
 
         /// <summary>

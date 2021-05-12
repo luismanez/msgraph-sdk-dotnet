@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public PlannerOrderHintsByAssignee()
         {
+            this.ODataType = "microsoft.graph.plannerOrderHintsByAssignee";
         }
 
         /// <summary>

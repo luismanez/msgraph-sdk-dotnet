@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public ItemActionStat()
         {
+            this.ODataType = "microsoft.graph.itemActionStat";
         }
 
         /// <summary>

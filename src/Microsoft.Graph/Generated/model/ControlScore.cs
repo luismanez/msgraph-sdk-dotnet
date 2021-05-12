@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public ControlScore()
         {
+            this.ODataType = "microsoft.graph.controlScore";
         }
 
         /// <summary>

@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public AccessAction()
         {
+            this.ODataType = "microsoft.graph.accessAction";
         }
 
         /// <summary>

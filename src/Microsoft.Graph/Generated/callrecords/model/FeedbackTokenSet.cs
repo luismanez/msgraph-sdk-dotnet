@@ -25,6 +25,7 @@ namespace Microsoft.Graph.CallRecords
         /// </summary>
         public FeedbackTokenSet()
         {
+            this.ODataType = "microsoft.graph.callRecords.feedbackTokenSet";
         }
 
         /// <summary>

@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public CertificationControl()
         {
+            this.ODataType = "microsoft.graph.certificationControl";
         }
 
         /// <summary>

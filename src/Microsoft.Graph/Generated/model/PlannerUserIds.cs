@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public PlannerUserIds()
         {
+            this.ODataType = "microsoft.graph.plannerUserIds";
         }
 
         /// <summary>

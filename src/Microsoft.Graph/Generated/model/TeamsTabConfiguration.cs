@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public TeamsTabConfiguration()
         {
+            this.ODataType = "microsoft.graph.teamsTabConfiguration";
         }
 
         /// <summary>

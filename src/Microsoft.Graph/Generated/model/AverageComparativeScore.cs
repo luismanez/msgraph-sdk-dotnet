@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public AverageComparativeScore()
         {
+            this.ODataType = "microsoft.graph.averageComparativeScore";
         }
 
         /// <summary>

@@ -25,6 +25,7 @@ namespace Microsoft.Graph
         /// </summary>
         public TeleconferenceDeviceQuality()
         {
+            this.ODataType = "microsoft.graph.teleconferenceDeviceQuality";
         }
 
         /// <summary>
