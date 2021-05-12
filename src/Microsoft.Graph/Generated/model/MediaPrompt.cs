@@ -24,6 +24,7 @@ namespace Microsoft.Graph
         /// </summary>
         public MediaPrompt()
         {
+            this.ODataType = "microsoft.graph.mediaPrompt";
         }
 
         /// <summary>
